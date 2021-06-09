@@ -73,8 +73,8 @@ cv.destroyAllWindows() #to close the window
 # In[ ]:
 
 
-img1 = cv.imread('rightimage.jpg')
-img2 = cv.imread('leftimage.jpg')
+img1 = cv.imread('pic1.jpg')
+img2 = cv.imread('pic2.jpg')
 horizontal = np.hstack((img2,img1))
 cv.imshow("Collage",horizontal)
 cv.waitKey(0)
